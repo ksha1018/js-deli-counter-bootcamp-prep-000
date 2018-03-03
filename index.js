@@ -2,8 +2,7 @@ var katzDeli = [];
 
 function takeANumber(array1, name){
   array1.push(name);
-  console.log("Welcome, ${name} You are number "+array1.length+" in line.")
-  return array1;
+  return "Welcome, "+ name +"" You are number "+array1.length+" in line.";
 }
 
 console.log(takeANumber(katzDeli, "kwon"));
@@ -13,12 +12,12 @@ console.log(takeANumber(katzDeli, "han"));
 
 function nowServing(array2){
   if(array2.length === 0){
-    console.log("There is nobody waiting to be served!");
+    return "There is nobody waiting to be served!";
   } else{
-    console.log("Currently serving " + array2[0]);
-    array2.shift();
+    var na = array2[0];
+    array2.shift();    
+    return "Currently serving " + na;
   }
-  return array2;
 }
 
 console.log(nowServing(katzDeli));
