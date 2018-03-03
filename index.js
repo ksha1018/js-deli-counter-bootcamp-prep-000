@@ -1,4 +1,5 @@
 var katzDeli = [];
+var otherDeli = ["Steven", "Blake", "Avi"];
 
 function takeANumber(array1, name){
   array1.push(name);
@@ -6,9 +7,7 @@ function takeANumber(array1, name){
 }
 
 console.log(takeANumber(katzDeli, "kwon"));
-console.log(takeANumber(katzDeli, "park"));
-console.log(takeANumber(katzDeli, "lee"));
-console.log(takeANumber(katzDeli, "han"));
+console.log(takeANumber(otherDeli, "kim"));
 
 function nowServing(array2){
   if(array2.length === 0){
@@ -21,7 +20,7 @@ function nowServing(array2){
 }
 
 console.log(nowServing(katzDeli));
-console.log(nowServing(katzDeli));
+console.log(nowServing(otherDeli));
 
 function currentLine(array3){
   if(array3.length ===0){
@@ -34,7 +33,6 @@ function currentLine(array3){
   }
 }
 
-console.log(katzDeli.length);
 console.log(currentLine(katzDeli));
-
+console.log(currentLine(otherDeli));
 
