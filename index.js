@@ -37,7 +37,3 @@ function currentLine(array3){
 console.log(currentLine(katzDeli));
 
 
-
-
-
-"The line is currently: 1. Bill, 2. Jane, 3. Ann"
