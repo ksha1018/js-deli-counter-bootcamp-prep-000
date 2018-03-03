@@ -3,7 +3,7 @@ var otherDeli = ["Steven", "Blake", "Avi"];
 
 function takeANumber(array1, name){
   array1.push(name);
-  return "Welcome, "+ name +" You are number "+array1.length+" in line.";
+  return "Welcome, "+ name +". You are number "+array1.length+" in line.";
 }
 
 console.log(takeANumber(katzDeli, "Ada"));
