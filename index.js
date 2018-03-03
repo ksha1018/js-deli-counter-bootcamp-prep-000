@@ -13,7 +13,7 @@ console.log(takeANumber(katzDeli, "han"));
 
 function nowServing(array2){
   if(array2.length === 0){
-    console.log("There is nobody waiting to be served!");
+    return "There is nobody waiting to be served!";
   } else{
     console.log("Currently serving " + array2[0]);
     array2.shift();
