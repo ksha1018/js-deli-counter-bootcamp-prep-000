@@ -33,7 +33,7 @@ function currentLine(array3){
   }
 }
 
-"The line is currently empty."
+
 
 
 
