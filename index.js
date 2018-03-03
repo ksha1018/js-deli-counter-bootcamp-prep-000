@@ -8,6 +8,8 @@ function takeANumber(array1, name){
 
 console.log(takeANumber(katzDeli, "kwon"));
 console.log(takeANumber(katzDeli, "park"));
+console.log(takeANumber(katzDeli, "park"));
+console.log(takeANumber(katzDeli, "park"));
 
 function nowServing(array2){
   if(array2.length === 0){
