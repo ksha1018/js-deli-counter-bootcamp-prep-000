@@ -1,6 +1,9 @@
 var katzDeli = [];
 
-function takeANumber(array, name){
-  array[array.length] = name;
-  console.log()
+function takeANumber(array1, name){
+  array1[array1.length] = name;
+  console.log("Welcome, ${name} You are number "+array1.length+"" in line.")
+  return array1;
 }
+
+console(katzDeli, "kwon");
