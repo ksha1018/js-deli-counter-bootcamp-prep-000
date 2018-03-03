@@ -23,7 +23,10 @@ console.log(nowServing(katzDeli));
 console.log(nowServing(katzDeli));
 
 function currentLine(array3){
-  
+  if(array3.length ===0){
+    console.log(    
 }
+
+"The line is currently empty."
 
 "The line is currently: 1. Bill, 2. Jane, 3. Ann"
