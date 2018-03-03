@@ -6,8 +6,8 @@ function takeANumber(array1, name){
   return "Welcome, "+ name +" You are number "+array1.length+" in line.";
 }
 
-console.log(takeANumber(katzDeli, "kwon"));
-console.log(takeANumber(otherDeli, "kim"));
+console.log(takeANumber(katzDeli, "Ada"));
+console.log(takeANumber(otherDeli, "Grace"));
 
 function nowServing(array2){
   if(array2.length === 0){
