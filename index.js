@@ -28,7 +28,7 @@ function currentLine(array3){
   } else{
     var a = "The line is currently: "  
     for(var i=0; i<array3.length; i++){
-      a = a + (i+1) +". "+ array3[i]+", ";
+      a = a + (i+1) +". "+ array3[i]+ {i===array3.length-1 ? ", " : ""};
     }
     return a;
   }
