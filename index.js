@@ -8,3 +8,7 @@ function takeANumber(array1, name){
 
 console.log(takeANumber(katzDeli, "kwon"));
 console.log(takeANumber(katzDeli, "park"));
+
+
+
+"There is nobody waiting to be served!"
