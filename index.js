@@ -24,7 +24,7 @@ console.log(nowServing(otherDeli));
 
 function currentLine(array3){
   if(array3.length ===0){
-    console.log("The line is currently empty.");
+    return "The line is currently empty.";
   } else{
     console.log("The line is currently: ");
     for(var i=0; i<array3.length; i++){
