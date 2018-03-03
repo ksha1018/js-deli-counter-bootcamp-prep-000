@@ -22,3 +22,8 @@ function nowServing(array2){
 console.log(nowServing(katzDeli));
 console.log(nowServing(katzDeli));
 
+function currentLine(array3){
+  
+}
+
+"The line is currently: 1. Bill, 2. Jane, 3. Ann"
