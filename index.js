@@ -26,11 +26,11 @@ function currentLine(array3){
   if(array3.length ===0){
     return "The line is currently empty.";
   } else{
-    var a = "The line is currently: "    
+    var a = "The line is currently: "  
     for(var i=0; i<array3.length; i++){
       a = a + (i+1) +". "+ array3[i]+", ";
-      return a;
     }
+    return a;
   }
 }
 
