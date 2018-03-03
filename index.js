@@ -34,6 +34,7 @@ function currentLine(array3){
   }
 }
 
+console.log(katzDeli.length);
 console.log(currentLine(katzDeli));
 
 
