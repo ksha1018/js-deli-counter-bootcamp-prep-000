@@ -33,7 +33,7 @@ function currentLine(array3){
   }
 }
 
-
+console.log(currentLine(katzDeli));
 
 
 
