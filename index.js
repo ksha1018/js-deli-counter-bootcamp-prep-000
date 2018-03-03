@@ -20,4 +20,5 @@ function nowServing(array2){
 }
 
 console.log(nowServing(katzDeli));
+console.log(nowServing(katzDeli));
 
