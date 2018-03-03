@@ -9,9 +9,15 @@ function takeANumber(array1, name){
 console.log(takeANumber(katzDeli, "kwon"));
 console.log(takeANumber(katzDeli, "park"));
 
-function nowServing()
+function nowServing(array2){
+  if(array2.length === 0){
+    console.log("There is nobody waiting to be served!");
+  } else{
+    console.log("Currently serving " + array2[0]);
+    array2.shift();
+  }
+  return array2;
+}
 
+console.log(nowServing(katzDeli));
 
-"There is nobody waiting to be served!"
-
-"Currently serving Steven."
