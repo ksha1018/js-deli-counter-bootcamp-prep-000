@@ -1,7 +1,7 @@
 var katzDeli = [];
 
 function takeANumber(array1, name){
-  array1[array1.length] = name;
+  array1.push(name);
   console.log("Welcome, ${name} You are number "+array1.length+" in line.")
   return array1;
 }
